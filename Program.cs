@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using TaskManager.Data;
-using TaskManager.Repositories;
-using TaskManager.Services;
+//using TaskManager.Data;
+//using TaskManager.Data;
+//using TaskManager.Repositories;
+//using TaskManager.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,14 +13,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DbAb0bdeTalentseedsContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+//builder.Services.AddDbContext<DbAb0bdeTalentseedsContext>(options =>
+//options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<ITaskUserService, UserTaskService>();
-builder.Services.AddScoped<ITaskService, TaskService>();
+//builder.Services.AddScoped<ITaskUserService, UserTaskService>();
+//builder.Services.AddScoped<ITaskService, TaskService>();
 
-builder.Services.AddScoped<ITaskRepository, TaskRepository>();
-builder.Services.AddScoped<ITaskUserRepository, TaskUserRepository>();
+//builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+//builder.Services.AddScoped<ITaskUserRepository, TaskUserRepository>();
 
 builder.Services.AddControllers();
 

@@ -170,3 +170,4 @@ C:\Users\MEGABLODFIX\source\repos\FISAmicroservicios\TaskManager\obj\Debug\net8.
 C:\Users\MEGABLODFIX\source\repos\FISAmicroservicios\TaskManager\obj\Debug\net8.0\TaskManager.pdb
 C:\Users\MEGABLODFIX\source\repos\FISAmicroservicios\TaskManager\obj\Debug\net8.0\TaskManager.genruntimeconfig.cache
 C:\Users\MEGABLODFIX\source\repos\FISAmicroservicios\TaskManager\obj\Debug\net8.0\ref\TaskManager.dll
+C:\Users\MEGABLODFIX\source\repos\FISAmicroservicios\TaskManager\obj\Debug\net8.0\TaskManager.sourcelink.json

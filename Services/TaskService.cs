@@ -52,7 +52,30 @@ namespace TaskManager.Services
 
         public async Task AddAsync(TfaTask entity)
         {
+            // Agrega la tarea a la base de datos
             await _repository.AddAsync(entity);
+
+            // Obtiene los IDs de los colaboradores asociados a la categoría
+            var collaboratorIds = await _repository.GetUserIdsByCategoryIdAsync(entity.CategoryId.Value);
+
+            // Si no hay colaboradores asociados, simplemente retorna
+            if (!collaboratorIds.Any())
+            {
+                return;
+            }
+
+            // Crea registros en TfaUsersTask para cada colaborador
+            var taskUsers = collaboratorIds.Select(userId => new TfaUsersTask
+            {
+                UserTaskId = entity.TaskId, // ID de la tarea recién creada
+                UserId = userId,
+                StatusTask = false, // Estado pendiente
+                EvidencePath = null,
+                EvidenceUploadDate = null
+            });
+
+            // Inserta los registros en la tabla TfaUsersTask
+            await _repository.    (taskUsers);
         }
 
         public async Task<bool> UpdateAsync(int id, UpdateTaskDto entity)
@@ -86,5 +109,12 @@ namespace TaskManager.Services
         {
             return await _repository.GetTasksByCategoryIdAsync(categoryId);
         }
+
+        public async Task<IEnumerable<int>> GetUserIdsByCategoryIdAsync(int categoryId)
+        {
+            return await _repository.GetUserIdsByCategoryIdAsync(categoryId);
+        }
+
     }
 }
+

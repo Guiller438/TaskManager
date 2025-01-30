@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using TaskManager.Models;
 
-namespace TaskManager.Data;
+namespace TaskManager.Models;
 
 public partial class DbAb0bdeTalentseedsContext : DbContext
 {

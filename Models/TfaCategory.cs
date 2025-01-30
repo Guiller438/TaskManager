@@ -15,5 +15,10 @@ public partial class TfaCategory
 
     public DateOnly? CategoryDeadLine { get; set; }
 
+    public int? ReducePoints { get; set; }
+
     public virtual ICollection<TfaTask> TfaTasks { get; set; } = new List<TfaTask>();
+
+    public virtual ICollection<TfaTeam> TfaTeams { get; set; } = new List<TfaTeam>();
+
 }

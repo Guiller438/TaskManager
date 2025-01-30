@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 using TaskManager.DTOs;
 using TaskManager.Models;
 using TaskManager.Services;
@@ -13,9 +14,12 @@ namespace TaskManager.Controllers
     {
         private readonly ITaskService _taskService;
 
-        public Task(ITaskService taskService)
+        private readonly ITaskUserService _taskUserService;
+
+        public Task(ITaskService taskService, ITaskUserService taskUserService)
         {
             _taskService = taskService;
+            _taskUserService = taskUserService;
         }
 
         [HttpGet("getAllTasks")]
@@ -53,6 +57,13 @@ namespace TaskManager.Controllers
 
             await _taskService.AddAsync(task);
 
+            bool isAssigned = await _taskUserService.AssignTaskToUserAsync(task.TaskId);
+
+            if (!isAssigned)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error al asignar la tarea al usuario.");
+            }
+
             return CreatedAtAction(nameof(GetById), new { id = task.TaskId }, task);
         }
 
@@ -81,10 +92,12 @@ namespace TaskManager.Controllers
         [HttpDelete("DeleteTask/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            bool isAssigned = await _taskUserService.DeleteTaskAsync(id);
             var existingTask = await _taskService.GetByIdAsync(id);
-            if (existingTask == null)
+
+            if (!isAssigned && existingTask == null)
             {
-                return NotFound($"Task with ID {id} not found.");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error al eliminar la tarea del usuario.");
             }
 
             await _taskService.DeleteAsync(id);

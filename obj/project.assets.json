@@ -5176,11 +5176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\TaskManager\\TaskManager.csproj",
+      "projectUniqueName": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\TaskManager.csproj",
       "projectName": "TaskManager",
-      "projectPath": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\TaskManager\\TaskManager.csproj",
+      "projectPath": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\TaskManager.csproj",
       "packagesPath": "C:\\Users\\MEGABLODFIX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MEGABLODFIX\\source\\repos\\FISAmicroservicios\\TaskManager\\obj\\",
+      "outputPath": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5258,7 +5258,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

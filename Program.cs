@@ -15,13 +15,18 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DbAb0bdeTalentseedsContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<ITaskUserService, UserTaskService>();
+builder.Services.AddHttpClient<ITaskUserService, UserTaskService>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:7006/api/"); // URL del microservicio
+});
 builder.Services.AddScoped<ITaskService, TaskService>();
 
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<ITaskUserRepository, TaskUserRepository>();
 
 builder.Services.AddControllers();
+
+
 
 
 

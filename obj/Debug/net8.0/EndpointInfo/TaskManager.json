@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Task/api/getAllTasks": {
+    "/api/Task/getAllTasks": {
       "get": {
         "tags": [
           "Task"
@@ -17,7 +17,7 @@
         }
       }
     },
-    "/api/Task/{id}": {
+    "/api/Task/getTaskId/{id}": {
       "get": {
         "tags": [
           "Task"
@@ -40,7 +40,7 @@
         }
       }
     },
-    "/api/Task/api/CreateTask": {
+    "/api/Task/CreateTask": {
       "post": {
         "tags": [
           "Task"
@@ -71,7 +71,7 @@
         }
       }
     },
-    "/api/Task/api/UpdateTask/{id}": {
+    "/api/Task/UpdateTask/{id}": {
       "put": {
         "tags": [
           "Task"
@@ -113,7 +113,7 @@
         }
       }
     },
-    "/api/Task/api/DeleteTask/{id}": {
+    "/api/Task/DeleteTask/{id}": {
       "delete": {
         "tags": [
           "Task"
@@ -129,133 +129,6 @@
             }
           }
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/UserTask": {
-      "get": {
-        "tags": [
-          "UserTask"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/UserTask/{id}": {
-      "get": {
-        "tags": [
-          "UserTask"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "UserTask"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersTaskDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersTaskDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersTaskDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "UserTask"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/UserTask/api/create": {
-      "post": {
-        "tags": [
-          "UserTask"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersTaskDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersTaskDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsersTaskDto"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -303,45 +176,6 @@
           "categoryId": {
             "type": "integer",
             "format": "int32",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UsersTaskDto": {
-        "type": "object",
-        "properties": {
-          "userTaskId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userName": {
-            "type": "string",
-            "nullable": true
-          },
-          "taskId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "taskName": {
-            "type": "string",
-            "nullable": true
-          },
-          "statusTask": {
-            "type": "boolean",
-            "nullable": true
-          },
-          "evidencePath": {
-            "type": "string",
-            "nullable": true
-          },
-          "evidenceUploadDate": {
-            "type": "string",
-            "format": "date-time",
             "nullable": true
           }
         },

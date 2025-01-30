@@ -12,5 +12,7 @@ namespace TaskManager.Services
         Task<bool> UpdateAsync(int id, UpdateTaskDto entity);
         Task DeleteAsync(int id);
         Task<IEnumerable<TfaTask>> GetTasksByCategoryIdAsync(int categoryId);
+
+        //Task<IEnumerable<int>> GetUserIdsByCategoryIdAsync(int categoryId);
     }
 }

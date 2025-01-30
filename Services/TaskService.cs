@@ -86,5 +86,10 @@ namespace TaskManager.Services
         {
             return await _repository.GetTasksByCategoryIdAsync(categoryId);
         }
+
+        //public async Task<IEnumerable<int>> GetUserIdsByCategoryIdAsync(int categoryId)
+        //{
+        //    return await _repository.(categoryId);
+        //}
     }
 }

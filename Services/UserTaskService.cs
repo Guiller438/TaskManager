@@ -5,41 +5,48 @@ namespace TaskManager.Services
 {
     public class UserTaskService: ITaskUserService
     {
-        private readonly ITaskUserRepository _repository;
-
-        public UserTaskService(ITaskUserRepository repository)
+        private readonly HttpClient _httpClient;
+        public UserTaskService(HttpClient httpClient)
         {
-            _repository = repository;
+            _httpClient = httpClient;
         }
 
-        public async Task<IEnumerable<TfaUsersTask>> GetAllAsync()
+
+        public async Task<bool> AssignTaskToUserAsync(int taskId)
         {
-            return await _repository.GetAllAsync();
+            try
+            {
+                var response = await _httpClient.PostAsync($"TaskUsers/AsignarTareas?TaskId={taskId}", null);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return true;
+                }
+                else
+                {
+                    // Registrar el error si es necesario
+                    Console.WriteLine($"Error al asignar tarea: {response.StatusCode}");
+                    return false;
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                // Manejo de errores de red
+                Console.WriteLine($"Error de red al asignar tarea: {ex.Message}");
+                return false;
+            }
         }
 
-        public async Task<TfaUsersTask?> GetByIdAsync(int id)
+        public async Task<bool> DeleteTaskAsync(int taskId)
         {
-            return await _repository.GetByIdAsync(id);
-        }
+            var response = await _httpClient.DeleteAsync($"TaskUsers/DeleteTask?TaskId={taskId}");
 
-        public async Task AddAsync(TfaUsersTask entity)
-        {
-            await _repository.AddAsync(entity);
-        }
+            if (!response.IsSuccessStatusCode)
+            {
+                return false;
+            }
 
-        public async Task UpdateAsync(TfaUsersTask entity)
-        {
-            await _repository.UpdateAsync(entity);
-        }
-
-        public async Task DeleteAsync(int id)
-        {
-            await _repository.DeleteAsync(id);
-        }
-
-        public async Task<IEnumerable<TfaUsersTask>> GetTasksByUserIdAsync(int userId)
-        {
-            return await _repository.GetTasksByUserIdAsync(userId);
+            return true;
         }
     }
 }

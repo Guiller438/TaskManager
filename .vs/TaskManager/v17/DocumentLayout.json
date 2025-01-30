@@ -1,41 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\",
+  "WorkspaceRootPath": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\controllers\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:controllers\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\repositories\\taskuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:repositories\\taskuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\services\\usertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:services\\usertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\repositories\\itaskuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\controllers\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:controllers\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\services\\itaskuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:services\\itaskuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\services\\usertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:services\\usertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\repositories\\taskuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:repositories\\taskuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\repositories\\itaskuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:repositories\\itaskuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\proyectossoftware\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\models\\tfatask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:models\\tfatask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\models\\tfarol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:models\\tfarol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\data\\dbab0bdetalentseedscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:data\\dbab0bdetalentseedscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\models\\tfacategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:models\\tfacategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|c:\\users\\megablodfix\\desktop\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C660D6C-5A1A-481B-A215-E2A44F8DF096}|TaskManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,116 +66,192 @@
       "DocumentGroups": [
         {
           "DockedWidth": 334,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Repositories\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TaskRepository.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Repositories\\TaskRepository.cs",
-              "RelativeToolTip": "Repositories\\TaskRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Title": "UserTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Services\\UserTaskService.cs",
+              "RelativeDocumentMoniker": "Services\\UserTaskService.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Services\\UserTaskService.cs",
+              "RelativeToolTip": "Services\\UserTaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T19:46:06.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ITaskUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Repositories\\ITaskUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ITaskUserRepository.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Repositories\\ITaskUserRepository.cs",
-              "RelativeToolTip": "Repositories\\ITaskUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T19:46:05.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "Services\\TaskService.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Services\\TaskService.cs",
-              "RelativeToolTip": "Services\\TaskService.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T19:45:42.878Z"
+              "WhenOpened": "2025-01-16T18:06:19.829Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Services\\ITaskService.cs",
-              "RelativeDocumentMoniker": "Services\\ITaskService.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Services\\ITaskService.cs",
-              "RelativeToolTip": "Services\\ITaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Services\\TaskService.cs",
+              "RelativeToolTip": "Services\\TaskService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T19:45:37.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-20T02:36:38.447Z"
+              "WhenOpened": "2025-01-16T18:06:17.187Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Controllers\\Task.cs",
-              "RelativeDocumentMoniker": "Controllers\\Task.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Controllers\\Task.cs",
-              "RelativeToolTip": "Controllers\\Task.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAlwCwAAAAIAAAAAAAAAA==",
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T02:03:31.172Z",
+              "WhenOpened": "2025-01-16T18:06:05.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "TaskUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Repositories\\TaskUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TaskUserRepository.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Repositories\\TaskUserRepository.cs",
+              "RelativeToolTip": "Repositories\\TaskUserRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T01:56:54.098Z"
+              "WhenOpened": "2025-01-16T18:06:07.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Repositories\\TaskUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TaskUserRepository.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Repositories\\TaskUserRepository.cs",
-              "RelativeToolTip": "Repositories\\TaskUserRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "Repositories\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T19:46:07.69Z"
+              "WhenOpened": "2025-01-16T18:06:00.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Services\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Services\\ITaskService.cs",
+              "RelativeToolTip": "Services\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:06:11.392Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserTaskService.cs",
-              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Services\\UserTaskService.cs",
-              "RelativeDocumentMoniker": "Services\\UserTaskService.cs",
-              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\Services\\UserTaskService.cs",
-              "RelativeToolTip": "Services\\UserTaskService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAASwCsAAAAMAAAAAAAAAA==",
+              "Title": "ITaskUserService.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Services\\ITaskUserService.cs",
+              "RelativeDocumentMoniker": "Services\\ITaskUserService.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Services\\ITaskUserService.cs",
+              "RelativeToolTip": "Services\\ITaskUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T01:56:06.766Z"
+              "WhenOpened": "2025-01-16T18:06:14.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Controllers\\Task.cs",
+              "RelativeDocumentMoniker": "Controllers\\Task.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Controllers\\Task.cs",
+              "RelativeToolTip": "Controllers\\Task.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA5wGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:05:22.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITaskUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Repositories\\ITaskUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ITaskUserRepository.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Repositories\\ITaskUserRepository.cs",
+              "RelativeToolTip": "Repositories\\ITaskUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:06:02.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:06:24.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TfaCategory.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Models\\TfaCategory.cs",
+              "RelativeDocumentMoniker": "Models\\TfaCategory.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Models\\TfaCategory.cs",
+              "RelativeToolTip": "Models\\TfaCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:12:09.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbAb0bdeTalentseedsContext.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Data\\DbAb0bdeTalentseedsContext.cs",
+              "RelativeDocumentMoniker": "Data\\DbAb0bdeTalentseedsContext.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Data\\DbAb0bdeTalentseedsContext.cs",
+              "RelativeToolTip": "Data\\DbAb0bdeTalentseedsContext.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAnwHkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:21:39.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TfaTask.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Models\\TfaTask.cs",
+              "RelativeDocumentMoniker": "Models\\TfaTask.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Models\\TfaTask.cs",
+              "RelativeToolTip": "Models\\TfaTask.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:23:35.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TfaRol.cs",
+              "DocumentMoniker": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Models\\TfaRol.cs",
+              "RelativeDocumentMoniker": "Models\\TfaRol.cs",
+              "ToolTip": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\Models\\TfaRol.cs",
+              "RelativeToolTip": "Models\\TfaRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:23:31.972Z"
             }
           ]
         }

@@ -5176,11 +5176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\TaskManager.csproj",
+      "projectUniqueName": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\TaskManager.csproj",
       "projectName": "TaskManager",
-      "projectPath": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\TaskManager.csproj",
+      "projectPath": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\TaskManager.csproj",
       "packagesPath": "C:\\Users\\MEGABLODFIX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MEGABLODFIX\\Desktop\\ProyectosSoftware\\TaskManager\\obj\\",
+      "outputPath": "C:\\Users\\MEGABLODFIX\\Desktop\\TaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
